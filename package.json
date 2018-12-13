@@ -1,0 +1,9 @@
+{
+  "name": "url-switcher",
+  "version": "1.1.0",
+  "description": "Switches between environments",
+  "scripts": {
+    "export": "node export.js"
+  },
+  "author": "Jenny"
+}
