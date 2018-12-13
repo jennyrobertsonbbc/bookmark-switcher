@@ -11,8 +11,8 @@ function expireIDCookies() {
 
 var regexResult = window.location.href.match(/(localhost|int|test|)\.?bbc\.co\.uk(\/.*)/);
 var currentEnvironment = regexResult ? regexResult[1] : 'nonbbc';
-if (currentEnvironment === 'int' || currentEnvironment === 'test'){
-  expireIDCookies();
+if (currentEnvironment === 'nonbbc' || currentEnvironment === 'int' || currentEnvironment === 'test'){
+    expireIDCookies();
 }
 var filePath = regexResult ? regexResult[2] : '/sounds';
 window.location.href = 'https://localhost.bbc.co.uk' + filePath;
