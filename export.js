@@ -1,5 +1,5 @@
 var fs = require('fs');
-var fileName = 'export/bookmarklet-swicher.html';
+var fileName = 'export/bookmarklet-switcher.html';
 var ICON = 'ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABdklEQVQ4jXXTv2tTURQH8M8NyVpcSv+ALDo4hQod3BODIYt7oQXRtUWcFJxEmrUiVtSpdKuFkO4VhJbO7dJZXLNGchxyX0xe+850efd+z/fHOS+5o6KjL9kW7oPkzNR+OnVRfpvuAL/BDlZKVzfYTSPHlQ2io4/vGXyJk3zuo4kbNU/T0FWBqZf0bAsrkqG6rXTiD0TbkeQQTVPP8K6A1ObsPWtzz2FYgCGdupCcZZJHi5zLCm7n8WIuPfzAufC7OoMnvgqbuNTQNbGxkMnbNPov/ZYFMLVvlnbLX+81/MIg3+7kkKsb5DkPMBY2TTzX8EnyLavYi64H1QqQRj7ic8FqYkPywWysTeHV4vulEHNoq/iZraxCGrqKji9oCQ+jZ62YUnkPukIXgzSyW1aX6161hXCdT/1oW59/nvneyiTXiztSLzU4kvLaJofRcYyxqR5aZuEeLIsuVR7VntkCLdYYr3PI1Q0g2tbVvBQeF7KFg/KfCP8A2zd2vCjsQ34AAAAASUVORK5CYII="';
 
 fs.readFile('js/live.js', 'utf-8', function (err, liveText) {
